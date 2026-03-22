@@ -1,0 +1,63 @@
+:root {
+    --bg-color:#191f36;
+    --snd-bf-color: #222645;
+    --text-color: #F8F9FA;
+    --main-color: #59b2f4;
+}
+body{
+    background: var(--bg-color);
+    color:var(--text-color);
+}
+
+.service-page {
+    max-width: 900px;
+    margin: 10rem auto;
+    padding: 2rem;
+}
+
+.service-title {
+    font-size: 4rem;
+    color: var(--main-color);
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+/* Paragraph styling */
+.service-text {
+    font-size: 1.8rem;
+    line-height: 1.9;
+    margin-bottom: 3rem;
+
+}
+
+/* Headings */
+.service-page h2 {
+    font-size: 2.4rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: var(--main-color);
+}
+.service-page {
+    max-width: 900px;
+    margin: 10rem auto;
+    padding: 2rem 0; /* remove side padding */
+}
+.service-page {
+    max-width: 900px;
+    margin: 6rem auto 2rem;  /* reduced top space */
+    padding: 0;
+}
+/* List styling */
+.service-page ul {
+    margin-left: 2rem;
+}
+
+.service-page ul li {
+    font-size: 1.7rem;
+    margin: 1rem 0;
+}
+
+/* Back button spacing */
+.back-btn {
+    margin-top: 4rem;
+}
